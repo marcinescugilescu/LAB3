@@ -14,7 +14,11 @@ and open the template in the editor.
         <div>TODO write content</div><div>test</div>
         <span>tekst1</span><span>teskt2</span>
         
-        <p>uhiugyguyguyutdyrd<img src="img/obraz.png" alt="" width="200" height="400" hspace="5" vspace="10" align="left"/>iyytuiyguyguyguyg</p>
+        <p>uhiugyguyguyutdyrd<img src="img/obraz.png" alt="" width="300" height="300" hspace="5" vspace="10" align="left" usemap='#mapa_obrazka'/>iyytuiyguyguyguyg</p>
+        <map name='mapa_obrazka'/>
+            <area shape='rect' coords="0,0,150,300" href="http://www.wp.pl" alt="wp"/>
+            <area shape='rect' coords="150,0,300,300" href="http://www.onet.pl" alt="onet"/>
+            </map>
         
         <table border="1" cellpadding="2" cellspacing="5">
             <thead>
@@ -56,5 +60,31 @@ and open the template in the editor.
      </tbody>
 </table>
         
+            <form action="" id="_form" method="get">
+                <label for="imie">imie</label>
+                <input type="text" name="imie" id="imie" value="marcin" maxlength="4" /><br/>
+                <label for="">password</label>
+                <input type="password" name="name2" value="wartosc"/><br/>
+                <label for="">checkbox</label>x
+                <input type="checkbox" name="name3"/><br/>
+                <label for="">radio</label>
+                <input type="radio" name="name4"/><br/>
+                <input type="radio" name="name4"/>
+                <label for="">reset</label>
+                <input type="reset" name="name5"/><br/>
+                <label for="">file</label>
+                <input type="file" name="name6"/><br/>
+                <label for="">hidden</label>
+                <input type="hidden" name="name7"/><br/>
+                <label for="">image</label>
+                <input type="image" name="name8"/><br/>
+                <label for="">button</label>
+                <input type="button" name="name7"/><br/>
+                
+                
+                <input type="submit" value="kliknij"/>
+                         
+                
+            </form>  
     </body>
 </html>

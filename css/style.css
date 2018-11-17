@@ -1,0 +1,54 @@
+p{
+    font-size: 10px;
+}
+.paragraf {
+    font-size: 20px;
+}
+#para1 {
+    font-size: 30px;
+}
+
+div p{
+    color: black;
+}
+
+div>p {
+    color: black;
+}
+
+p+p {
+    color: black;
+}
+
+p~p {
+    color: black;
+}
+
+P[style] {color:red}
+    
+a[target="_blank"] {color:black}
+
+p[class~="p1"]{color:blue}
+
+p[class^="p1"]{color:yellow}
+
+p[class$="2"]{color:brown}
+
+p[class="gr"]{color:pink}
+
+p:first-child{}
+
+a:hover{
+    color:red;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-11-17, 17:57:08
+    Author     : student
+*/
+
